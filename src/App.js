@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+// import Todo from  './components/Todo';
+import { Route, Switch } from 'react-router-dom'
+import AllMeetupsPage from './pages/AllMeetup'
+import NewMeetup from './pages/NewMeetup'
+import Favorites from './pages/Favorites'
+import Layout from './components/layout/Layout'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+  
+      {/* <h1>TODO</h1>
+      <Todo data = 'react'/>  
+      <Todo data = 'nodeJs'/>  
+      <Todo data= 'mongodb' />   */}
+      <Switch>
+        <Route path="/" exact>
+          <AllMeetupsPage />
+        </Route>
+        <Route path="/new-meetup">
+          <NewMeetup />
+        </Route>
+        <Route path="/favorites">
+          <Favorites />
+        </Route>
+      </Switch>
+    </Layout>//custom comp tht we create
   );
 }
 
-export default App;
+export default App
+
+
+
+
+
+
+
