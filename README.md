@@ -2,6 +2,22 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This is based on react where the user can add the detail of the new place 
+can easily navigate to different pages 
+if somw users want to add places to their favorites then easily add on favorite and can easily see the list of a favorite item 
+Here are sample :
+<img width="953" alt="image" src="https://github.com/AkanshaMundel/SpotShare_react/assets/78690652/5eeb9a8f-7647-4fb8-a183-4d9fa45f9852">
+
+
+<img width="569" alt="image" src="https://github.com/AkanshaMundel/SpotShare_react/assets/78690652/e76c6f2b-ec2a-4763-b2bc-c7492a04b5bd">
+
+
+<img width="671" alt="image" src="https://github.com/AkanshaMundel/SpotShare_react/assets/78690652/ff52b969-41a6-4f4c-b305-d0b87a1b3c7c">
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
